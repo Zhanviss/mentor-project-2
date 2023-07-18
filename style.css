@@ -92,44 +92,45 @@ h1, p.heading-subtext{
         right: 29%;
     }   
 }
-
-.supervisor{
-    background-image: url("images/icon-supervisor.svg");
-    background-repeat: no-repeat;
-    background-position-x: 90%;
-    background-position-y: 90%;
-    border-top: 5px solid aqua;
-    position: absolute;
-    top: 48%;
-    left: 17.5%;
-}
-.team-builder{
-    background-image: url("images/icon-team-builder.svg");
-    background-repeat: no-repeat;
-    background-position-x: 90%;
-    background-position-y: 90%;
-    border-top: 5px solid red;
-    position: absolute;
-    top: 30.5%;
-    left: 40%;
-}
-.karma{
-    background-image: url("images/icon-karma.svg");
-    background-repeat: no-repeat;
-    background-position-x: 90%;
-    background-position-y: 90%;
-    border-top: 5px solid orange;
-    position: absolute;
-    top: 63.5%;
-    left: 40%;
-}
-.calculator{
-    background-image: url("images/icon-calculator.svg");
-    background-repeat: no-repeat;
-    background-position-x: 90%;
-    background-position-y: 90%;
-    border-top: 5px solid blue;
-    position: absolute;
-    top: 48%;
-    right: 12%;
+@media screen and (max-width:1920px){
+    .supervisor{
+        background-image: url("images/icon-supervisor.svg");
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y: 90%;
+        border-top: 5px solid aqua;
+        position: absolute;
+        top: 48%;
+        left: 17.5%;
+    }
+    .team-builder{
+        background-image: url("images/icon-team-builder.svg");
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y: 90%;
+        border-top: 5px solid red;
+        position: absolute;
+        top: 30.5%;
+        left: 40%;
+    }
+    .karma{
+        background-image: url("images/icon-karma.svg");
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y: 90%;
+        border-top: 5px solid orange;
+        position: absolute;
+        top: 63.5%;
+        left: 40%;
+    }
+    .calculator{
+        background-image: url("images/icon-calculator.svg");
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y: 90%;
+        border-top: 5px solid blue;
+        position: absolute;
+        top: 48%;
+        right: 12%;
+    }
 }
