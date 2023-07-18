@@ -2,7 +2,6 @@ body{
     background-color:  hsl(0, 0%, 98%);
     font-family: Poppins;
 }
-
 header{
     display: flex;
     flex-direction: column;
@@ -29,28 +28,20 @@ section{
     display: flex;
 }
 
-div{
-    background-color: white;
-    border-radius: 5px;
-    border:none;
-    width: 350px;
-    height: 250px;
-    padding: 10px 15px 10px 30px;
-    box-shadow: 0px 0px 20px 0px hsl(229, 6%, 66%);
-}
-
 @media screen and (max-width:1440px) {
     h1, p.heading-subtext{
         max-width: 500px;
         text-align: center;
     }
-}
-h1, p.heading-subtext{
-    max-width: 550px;
-    text-align: center;
-}
-
-@media screen and (max-width:1440px) {
+    div{
+        background-color: white;
+        border-radius: 5px;
+        border:none;
+        width: 250px;
+        height: 150px;
+        padding: 10px 15px 10px 30px;
+        box-shadow: 0px 0px 20px 0px hsl(229, 6%, 66%);
+    }
     .supervisor{
         background-image: url("images/icon-supervisor.svg");
         background-repeat: no-repeat;
@@ -93,6 +84,19 @@ h1, p.heading-subtext{
     }   
 }
 @media screen and (max-width:1920px){
+    h1, p.heading-subtext{
+        max-width: 550px;
+        text-align: center;
+    }
+    div{
+        background-color: white;
+        border-radius: 5px;
+        border:none;
+        width: 350px;
+        height: 250px;
+        padding: 10px 15px 10px 30px;
+        box-shadow: 0px 0px 20px 0px hsl(229, 6%, 66%);
+    }
     .supervisor{
         background-image: url("images/icon-supervisor.svg");
         background-repeat: no-repeat;
